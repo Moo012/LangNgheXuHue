@@ -1,0 +1,66 @@
+/* Tổng quát */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  color: #007b5e;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #007b5e;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Làng nghề */
+.crafts {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.craft-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #007b5e;
+  color: white;
+  padding: 10px;
+}
